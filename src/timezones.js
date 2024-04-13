@@ -1,0 +1,15 @@
+export const timezones = [
+  "Pacific/Honolulu", // Hawaii-Aleutian Standard Time (HST)
+  "America/Los_Angeles", // Pacific Standard Time (PST)
+  "America/Denver", // Mountain Standard Time (MST)
+  "America/Chicago", // Central Standard Time (CST)
+  "America/New_York", // Eastern Standard Time (EST)
+  "Europe/London", // Greenwich Mean Time (GMT)
+  "Europe/Paris", // Central European Time (CET)
+  "Europe/Moscow", // Moscow Standard Time (MSK)
+  "Asia/Dubai", // Gulf Standard Time (GST)
+  "Asia/Kolkata", // Indian Standard Time (IST)
+  "Asia/Shanghai", // China Standard Time (CST)
+  "Asia/Tokyo", // Japan Standard Time (JST)
+  "Australia/Sydney", // Australian Eastern Standard Time (AEST)
+];
