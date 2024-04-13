@@ -1,8 +1,7 @@
-# React + Vite
+Mini Analog Paco Style Clock - React component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="401" alt="Screenshot 2024-04-13 at 19 30 32" src="https://github.com/itsJosephV/analog-clock/assets/114157492/51008545-d632-4f4e-bccf-109f5e8e7af9">
 
-Currently, two official plugins are available:
+Credits to Paco for the inspiration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Analog clock found in his website footer -->  https://paco.me
