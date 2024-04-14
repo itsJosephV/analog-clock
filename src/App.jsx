@@ -69,8 +69,8 @@ function App() {
 export default App;
 
 const Clock = styled.div`
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   border: 1px solid rgba(168, 162, 158, 0.5);
   border-radius: 100%;
   position: relative;
@@ -78,44 +78,50 @@ const Clock = styled.div`
 
 const SecondsHandler = styled.div.attrs((props) => ({
   style: {
+    "--width": "0.5px",
+    "--height": "8px",
     transform: `rotate(${props.secondsdeg}deg)`,
   },
 }))`
   position: absolute;
   background-color: rgb(168, 162, 158);
-  height: 10.5px;
-  width: 0.5px;
-  left: 50%;
-  transform-origin: 0 100%;
-  bottom: 50%;
+  height: var(--height);
+  width: var(--width);
+  top: 50%;
+  left: calc(50% - var(--width) / 2);
+  transform-origin: center 0px;
 `;
 
 const MinutsHandler = styled.div.attrs((props) => ({
   style: {
     transform: `rotate(${props.minutesdeg}deg)`,
+    "--height": "7px",
+    "--width": "1px",
   },
 }))`
   position: absolute;
   background-color: rgb(168, 162, 158);
-  height: 10px;
-  width: 1px;
-  left: 50%;
+  height: var(--height);
+  width: var(--width);
+  top: 50%;
+  left: calc(50% - var(--width) / 2);
   border-radius: 1.5px;
-  transform-origin: 0 100%;
-  bottom: 50%;
+  transform-origin: center 0px;
 `;
 
 const HoursHandler = styled.div.attrs((props) => ({
   style: {
     transform: `rotate(${props.hoursdeg}deg)`,
+    "--height": "5px",
+    "--width": "1px",
   },
 }))`
   position: absolute;
   background-color: rgb(168, 162, 158);
-  height: 8px;
-  width: 1px;
+  height: var(--height);
+  width: var(--width);
+  top: 50%;
+  left: calc(50% - var(--width) / 2);
   border-radius: 1.5px;
-  left: 50%;
-  transform-origin: 0 100%;
-  bottom: 50%;
+  transform-origin: center 0px;
 `;
