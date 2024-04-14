@@ -4,6 +4,6 @@ Mini Analog Paco Style Clock - React component
 
 Credits to Paco for the inspiration.
 
-Analog clock found in his website footer -->  https://paco.me
+Analog clock found in Paco's website footer -->  https://paco.me
 
 Tech --> Vite(React) / styled components / react-tooltip
