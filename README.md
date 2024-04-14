@@ -1,6 +1,6 @@
 Mini Analog Paco Style Clock - React component
 
-<img width="370" alt="Screenshot 2024-04-14 at 14 37 11" src="https://github.com/itsJosephV/paco.me-analog-clock-component/assets/114157492/cd7f4d1d-e52c-4e89-941c-965b2e3f4f11">
+<img width="340" alt="Screenshot 2024-04-14 at 21 07 18" src="https://github.com/itsJosephV/paco.me-analog-clock-component/assets/114157492/743b1555-b2a1-4410-8f77-a5461a66d174">
 
 Credits to Paco for the inspiration.
 
