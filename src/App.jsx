@@ -74,6 +74,7 @@ const Clock = styled.div`
   border: 1px solid rgba(168, 162, 158, 0.5);
   border-radius: 100%;
   position: relative;
+  transform: rotate(180deg);
 `;
 
 const SecondsHandler = styled.div.attrs((props) => ({

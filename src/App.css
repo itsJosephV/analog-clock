@@ -3,10 +3,9 @@
 }
 
 body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  height: 100vh;
 }
 
 * {
